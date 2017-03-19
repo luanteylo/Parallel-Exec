@@ -1,8 +1,8 @@
-EXEC_DIR=/home/luan/git-project/reexec/hea-tasdap/exec-files
-OUTPUT_DIR=/home/luan/git-project/reexec/hea-tasdap/testout
+EXEC_DIR=/home/luan/git-project/hea-tasdap/exec-files
+OUTPUT_DIR=/home/luan/git-project/hea-tasdap/output-retest
 N_PROC=2
-N_CMD=14
-N_REEXEC=6
+N_CMD=1
+N_REEXEC=5
 MAIL_FLAG=True
 
 ./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_30.xml.dag
