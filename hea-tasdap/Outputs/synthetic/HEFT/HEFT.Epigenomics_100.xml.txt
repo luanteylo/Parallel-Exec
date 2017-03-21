@@ -1,0 +1,8 @@
+HEFT_classicCluster_4
+../../Input/classic_cluster.vcl ../../Input/Epigenomics_100.xml.dag
+###!# result: 916.733 +/- 0.0	0.848385 +/- 0.0
+
+HEFT_classicCluster_4
+../../Input/classic_cluster.vcl ../../Input/Epigenomics_100.xml.dag
+###!# result: 916.733 +/- 0.0	0.875454 +/- 0.0
+

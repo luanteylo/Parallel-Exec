@@ -1,0 +1,8 @@
+MINMIN_classicCluster_4
+../../Input/classic_cluster.vcl ../../Input/CyberShake_100.xml.dag
+###!# result: 26.9333 +/- 0.0	1.07546 +/- 0.0
+
+MINMIN_classicCluster_4
+../../Input/classic_cluster.vcl ../../Input/CyberShake_100.xml.dag
+###!# result: 26.9333 +/- 0.0	1.79245 +/- 0.0
+
