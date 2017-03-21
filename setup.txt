@@ -1,21 +1,58 @@
 EXEC_DIR=/home/luan/git-project/hea-tasdap/exec-files
 OUTPUT_DIR=/home/luan/git-project/hea-tasdap/output-retest
-N_PROC=2
-N_CMD=1
-N_REEXEC=5
+OUTPUT_FILE=output_new.txt
+ONE_OUTPUT_FILE=0
+N_PROC=0
+N_CMD=42
+N_REEXEC=1
 MAIL_FLAG=True
 
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_30.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_50.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_100.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.351024866.0.dax.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.702049732.0.dax.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_24.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_46.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_100.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_25.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_50.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_100.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_30.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_50.xml.dag
-./STATIC_HEA  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_100.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_30.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_50.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_100.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_25.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_50.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_100.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.351024866.0.dax.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.702049732.0.dax.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_24.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_46.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_100.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_30.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_50.xml.dag
+./STATIC_HEA_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_100.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_30.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_50.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_100.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_25.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_50.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_100.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.351024866.0.dax.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.702049732.0.dax.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_24.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_46.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_100.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_30.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_50.xml.dag
+./MInMin-TS_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_100.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_30.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_50.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/CyberShake_100.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_25.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_50.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Montage_100.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.351024866.0.dax.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/GENOME.d.702049732.0.dax.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_24.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_46.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Epigenomics_100.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_30.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_50.xml.dag
+./HEFT_C_NEW  -v -c ../Inputs/synthetic/cluster.vcl  -w ../Inputs/synthetic/Inspiral_100.xml.dag
+
+
+
+
+
+
+
