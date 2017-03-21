@@ -1,8 +1,0 @@
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Montage_50.xml.dag
-###!# result: 2.08333 +/- 0.0	0.223323 +/- 0.0
-
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Montage_50.xml.dag
-###!# result: 2.08333 +/- 0.0	0.226339 +/- 0.0
-

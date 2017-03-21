@@ -1,8 +1,0 @@
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/GENOME.d.702049732.0.dax.dag
-###!# result: 865.45 +/- 0.0	0.967186 +/- 0.0
-
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/GENOME.d.702049732.0.dax.dag
-###!# result: 865.45 +/- 0.0	1.39838 +/- 0.0
-

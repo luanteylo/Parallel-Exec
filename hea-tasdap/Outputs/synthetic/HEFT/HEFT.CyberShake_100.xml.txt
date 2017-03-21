@@ -1,8 +1,0 @@
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/CyberShake_100.xml.dag
-###!# result: 28.0833 +/- 0.0	0.993428 +/- 0.0
-
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/CyberShake_100.xml.dag
-###!# result: 28.0833 +/- 0.0	1.02764 +/- 0.0
-

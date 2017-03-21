@@ -1,8 +1,0 @@
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/GENOME.d.702049732.0.dax.dag
-###!# result: 923.467 +/- 0.0	0.994559 +/- 0.0
-
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/GENOME.d.702049732.0.dax.dag
-###!# result: 923.467 +/- 0.0	1.74829 +/- 0.0
-

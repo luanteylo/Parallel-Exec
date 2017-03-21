@@ -1,8 +1,0 @@
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Montage_25.xml.dag
-###!# result: 1.81667 +/- 0.0	0.008102 +/- 0.0
-
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Montage_25.xml.dag
-###!# result: 1.81667 +/- 0.0	0.014079 +/- 0.0
-

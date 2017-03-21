@@ -1,8 +1,0 @@
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Inspiral_100.xml.dag
-###!# result: 44.65 +/- 0.0	0.497434 +/- 0.0
-
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Inspiral_100.xml.dag
-###!# result: 44.65 +/- 0.0	0.858876 +/- 0.0
-

@@ -1,5 +1,5 @@
-EXEC_DIR=/home/luan/git-project/hea-tasdap/exec-files
-OUTPUT_DIR=/home/luan/git-project/hea-tasdap/output-retest
+EXEC_DIR=/home/luan/hea-tasdap/exec-files
+OUTPUT_DIR=/home/luan/hea-tasdap/exec-files/output-retest
 OUTPUT_FILE=output_new.txt
 ONE_OUTPUT_FILE=0
 N_PROC=0

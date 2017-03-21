@@ -1,8 +1,0 @@
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Epigenomics_46.xml.dag
-###!# result: 119.95 +/- 0.0	0.044846 +/- 0.0
-
-MINMIN_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Epigenomics_46.xml.dag
-###!# result: 119.95 +/- 0.0	0.077001 +/- 0.0
-

@@ -1,8 +1,0 @@
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Inspiral_50.xml.dag
-###!# result: 23.3667 +/- 0.0	0.205565 +/- 0.0
-
-HEFT_classicCluster_4
-../../Input/classic_cluster.vcl ../../Input/Inspiral_50.xml.dag
-###!# result: 23.3667 +/- 0.0	0.212065 +/- 0.0
-
