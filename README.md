@@ -12,7 +12,7 @@ Para utilizar o programa basta alterar o arquivo de [setup](https://github.com/l
 2. `OUTPUT_DIR=/your/output/dir` : diretório de saída
 3. `OUTPUT_FILE=output_file` : arquivo(s) de saída
 4. `ONE_OUTPUT_FILE=0` : 0 = um único arquivo para saída; 1 = um arquivo por comando
-5. `N_PROC=0` : Número de threads criadas. Se N_PROC = 0, serão criadas 1 thread por cor.
+5. `N_PROC=0` : Número de threads criadas. Se N_PROC = 0, serão criadas 1 thread por core.
 6. `N_CMD=3` : Número total de comandos 
 7. `N_REEXEC=1` : Número de execuções por comando.
 8. `MAIL_FLAG=True` : __Feature futura__
