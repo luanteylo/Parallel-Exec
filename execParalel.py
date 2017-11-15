@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os
 
 import argparse
@@ -128,6 +129,7 @@ def start_experiments(setup, debug):
     results = []
 
     for cmd in setup.cmds:
+        debug.print_commum(cmd)
         for i in range(setup.N_REEXEC):
             results.append(pool.apply_async(call_proc, (cmd, setup, i, debug)))
 

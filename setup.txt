@@ -1,12 +1,17 @@
-EXEC_DIR=/your/program/dir
-OUTPUT_DIR=/your/output/dir
+EXEC_DIR=/home/luan/project/HEA/bin
+OUTPUT_DIR=/home/luan/project/HEA/output
 OUTPUT_FILE=output_file
 ONE_OUTPUT_FILE=0
-N_PROC=0
-N_CMD=3
-N_REEXEC=1
+N_PROC=1
+N_CMD=7
+N_REEXEC=5
 MAIL_FLAG=True
 
-./myprogram  -parameter1 x1 -parameter2 x2
-./myprogram  -parameter1 y1 -parameter2 y2
-./myprogram  -parameter1 z1 -parameter2 z2
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/CyberShake_50.xml.dag
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/CyberShake_100.xml.dag
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/CYBERSHAKE.n.200.19.dax.dag
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/Montage_25.xml.dag
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/Montage_50.xml.dag
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/Montage_100.xml.dag
+./HEA -c ../input/cluster.vcl -w ../input/Workflows/Montage_200.xml.dag
+
